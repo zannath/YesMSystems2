@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class Case1 {
 
 	@Test
-	public void neagiveLogin1() {
+	public void neagiveLogin() {
        WebDriver driver=new ChromeDriver();
 		
 		driver.manage().window().maximize();
